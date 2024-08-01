@@ -1,0 +1,24 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+header {
+    width: 98%;
+    display: grid;
+    grid-template: 5.3125rem / repeat(20 , 5%);
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    position: relative;
+    border-bottom: 2px solid black;
+    padding: 0 1%;
+    z-index: 1;
+}
+
