@@ -22,3 +22,26 @@ header {
     z-index: 1;
 }
 
+header .logo {
+    text-align: left;
+    grid-area: 1 / 1 / 2 / span 3;
+}
+
+.logo h1 {
+    font-size: 2.9rem;
+    font-size: 2.2vw;
+}
+
+header nav {
+    grid-area: 1 / 16 / 2 / span 7;
+    text-align: left;
+    align-items: center;
+}
+
+header nav a {
+    text-decoration: none;
+    padding-left: 1.4rem;
+    font-size: 1rem;
+    font-size: 1.1vw;
+    color: black;
+}
