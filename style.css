@@ -20,7 +20,7 @@ header {
     align-items: center;
     background-color: white;
     border-bottom: 2px solid black;
-    position: relative;
+    position: fixed;
     padding: 0 1%;
     z-index: 1;
 }
@@ -72,8 +72,62 @@ header nav a {
     color: black;
 }
 
-/*----------------------------------- Services ----------------------------------------*/
+/*----------------------------------- Welcome ----------------------------------------*/
 
+#Welcome {
+    top: 5.4rem;
+    width: 100%;
+    height: 40rem;
+    display: grid;
+    grid-template: repeat(20, 5%) / repeat(20, 5%);
+    position: relative;
+    z-index:0;
+}
+
+#Welcome .container {
+    grid-area: 1 / 2 / span 20 / span 18;
+    background-image: url(./Images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template: repeat(20, 5%) / repeat(20, 5%);
+}
+
+#Welcome .text {
+    grid-area: 1 / 1 / span 20 /span 21;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+#Welcome .text2 {
+    grid-area: 1 / 1 / span 20 /span 21;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 0;
+}
+
+#Welcome .text h2 {
+    color: whitesmoke;
+    font-size: 6rem;
+    font-size: 6vw;
+}
+
+#Welcome .text2 h2 {
+    color: black;
+    font-size: 6.17rem;
+    font-size: 6.17vw;
+}
+
+
+/*----------------------------------- Services ----------------------------------------*/
 #Services {
     width: 100%;
     height: 40rem;
@@ -85,17 +139,21 @@ header nav a {
 
 #Services .container {
     grid-area: 1 / 2 / span 20 / span 18;
-    background-image: url(./Images/background.jpg);
+    /*background-image: url(./Images/background.jpg);
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;*/
     justify-content: center;
     display: grid;
     grid-template: repeat(20, 5%) / repeat(20, 5%);
 }
-
 #Services .text {
-    grid-area: 10 / 10 / span 5 /span 8;
-    justify-content: center;
-    align-items: center;
+    grid-area: 2 / 9 / span 12 /span 8;
+    display: grid;
+    justify-content: flex-start;
+    align-items: ;
+}
+
+#Services .text h2 {
+    margin: 0 auto;
 }
