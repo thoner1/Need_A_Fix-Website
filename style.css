@@ -148,7 +148,7 @@ header nav a {
     grid-template: repeat(20, 5%) / repeat(20, 5%);
 }
 #Services .text {
-    grid-area: 2 / 9 / span 12 /span 8;
+    grid-area: 5 / 9 / span 12 /span 8;
     display: grid;
     justify-content: flex-start;
     align-items: ;
