@@ -26,27 +26,38 @@ header {
 }
 
 #logo {
-    text-align: left;
-    grid-area: 1 / 1 / 2 / span 4;
+    width: 10.5rem;
     display: inline-flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: start;
 }
 
-#logo .right-pic img {
-    width: 80px;
-    height: 80px;
-    padding-left: 10px;
-    padding-right: 0;
-    right: 5rem;
+#logo .text {
+    height: 5.3125rem;
+    width: 90%;
+    display: grid;
+    align-items: center;
+    justify-content: start;
 }
 
 #logo h1 {
     font-family: "Bungee Tint", sans-serif;
     font-weight: 400;
-    font-style: normal;
-    font-size: 2.9rem;
-    font-size: 2.2vw;
+    font-style: bold;
+    font-size: 1.45rem;
+    margin: 0 auto;
+}
+
+#logo .right-pic {
+    width: 10%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: start;
+}
+
+#logo .right-pic img {
+    width: 5rem;
+    height: 5rem;
 }
 
 header nav {
@@ -69,9 +80,9 @@ header nav a {
 /*----------------------------------- Welcome ----------------------------------------*/
 
 #Welcome {
-    top: 5.4rem;
+    top: 5.4375rem;
     width: 100%;
-    height: 40rem;
+    height: 45.4375rem;
     display: grid;
     grid-template: repeat(20, 5%) / repeat(20, 5%);
     position: relative;
@@ -120,9 +131,15 @@ header nav a {
     font-size: 6.17vw;
 }
 
+/*----------------------------------- Portfolio ---------------------------------------*/
+
+#Portfolio {
+    
+}
 
 /*----------------------------------- Services ----------------------------------------*/
 #Services {
+    top: 40rem;
     width: 100%;
     height: 40rem;
     display: grid;
