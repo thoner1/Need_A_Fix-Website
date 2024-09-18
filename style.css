@@ -171,7 +171,7 @@ header nav a {
     display:inline-flex;
     flex-wrap: wrap;
     position: relative;
-    grid-area: 5 / 1 / span 8 / span 40;
+    grid-area: 2 / 1 / span 8 / span 40;
     align-items: flex-start;
     border: 3px dotted black;
     justify-content: space-around;
@@ -182,7 +182,7 @@ header nav a {
     display:inline-flex;
     flex-wrap: wrap;
     position: relative;
-    grid-area: 8 / 1 / span 8 / span 40;
+    grid-area: 9 / 1 / span 8 / span 40;
     align-items: flex-start;
     justify-content: space-around;
     background-color: purple;
@@ -192,7 +192,7 @@ header nav a {
     display:inline-flex;
     flex-wrap: wrap;
     position: relative;
-    grid-area: 16 / 1 / span 5 / span 40;
+    grid-area: 17 / 1 / span 8 / span 40;
     align-items: flex-start;
     justify-content: space-around;
     background-color: cyan;
