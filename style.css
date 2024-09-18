@@ -136,18 +136,27 @@ header nav a {
 /*----------------------------------- Portfolio ---------------------------------------*/
 
 #Portfolio {
-    width: 100%;
-    height: 80em;
-    display: grid;
-    grid-template: repeat(20, 5%) / repeat(20, 5%);
-    position: relative;
     top: 5.4375rem;
-    /*background-color: rgb(221, 43, 43);*/
+    width: 100%;
+    height: 160em;
+    display: grid;
+    grid-template: repeat(40, 2.5%) / repeat(40, 2.5%);
+    position: relative;
+    align-items: flex-end;
+    justify-content: space-between;
+    background-color:green;*/
+
 }
 
 #Portfolio .title {
-    margin-top: 4rem;
-    margin-left: 8rem;
+    height: 5.4375rem;
+    width: 100%;
+    display: grid;
+    grid-area:  1 / 3 / span 2 / span 38;
+    position: relative;
+    background-color: orange;
+    align-content: center;
+    justify-content: flex-start;
 }
 
 #Portfolio h1{
@@ -155,28 +164,54 @@ header nav a {
     font-weight: 400;
     font-style: bold;
     font-size: 5rem;
+    margin: 0 auto;
 }
 
-#Portfolio .pictures {
+#Portfolio .picturesI {
     display:inline-flex;
+    flex-wrap: wrap;
     position: relative;
-    grid-area: 5 / 1 / span 16 / span 20;
+    grid-area: 5 / 1 / span 8 / span 40;
+    align-items: flex-start;
+    border: 3px dotted black;
     justify-content: space-around;
+    background-color: red;
 }
 
-#Portfolio .container {
+#Portfolio .picturesII {
+    display:inline-flex;
+    flex-wrap: wrap;
+    position: relative;
+    grid-area: 8 / 1 / span 8 / span 40;
+    align-items: flex-start;
+    justify-content: space-around;
+    background-color: purple;
+}
+
+#Portfolio .picturesIII {
+    display:inline-flex;
+    flex-wrap: wrap;
+    position: relative;
+    grid-area: 16 / 1 / span 5 / span 40;
+    align-items: flex-start;
+    justify-content: space-around;
+    background-color: cyan;
+    border: 2px dotted black;
+}
+
+#Portfolio .landscape-container {
     border: 3px solid black;
     border-radius: 10px;
-    height: 35rem;
-    width: 25rem;
+    height: 25rem;
+    width: 35rem;
 }
 /*----------------------------------- Services ----------------------------------------*/
 #Services {
-    top: 40rem;
     width: 100%;
     height: 40rem;
     display: grid;
     grid-template: repeat(20, 5%) / repeat(20, 5%);
+    background-color: yellow;
     position: relative;
     z-index:0;
 }
@@ -200,4 +235,5 @@ header nav a {
 
 #Services .text h2 {
     margin: 0 auto;
+
 }
