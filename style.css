@@ -61,9 +61,10 @@ header {
 }
 
 header nav {
-    grid-area: 1 / 15 / 2 / span 7;
+    grid-area: 1 / 14 / 2 / span 7;
     text-align: right;
     align-items: center;
+    justify-content: center;
 }
 
 header nav a {
@@ -84,6 +85,7 @@ header nav a {
     width: 100%;
     height: 61rem;
     display: grid;
+    /*background-color: whitesmoke;*/
     grid-template: repeat(20, 5%) / repeat(20, 5%);
     position: relative;
     z-index:0;
@@ -136,8 +138,16 @@ header nav a {
 #Portfolio {
     width: 100%;
     height: 40rem;
+    display: grid;
+    grid-template: repeat(20, 5%) / repeat(20, 5%);
     position: relative;
     top: 5.4375rem;
+    background-color: rgb(221, 43, 43);*/
+}
+
+#Portfolio .title {
+    margin-top: 0rem;
+    margin-left: 8rem;
 }
 
 #Portfolio h1{
