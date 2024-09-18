@@ -160,12 +160,16 @@ header nav a {
 #Portfolio .pictures {
     display:inline-flex;
     position: relative;
-    background-color: whitesmoke;
-    grid-area: 5 / 2 / span 8 / span 4;
-    border: 3px solid black;
-    border-radius: 10px;
+    grid-area: 5 / 1 / span 16 / span 20;
+    justify-content: space-around;
 }
 
+#Portfolio .container {
+    border: 3px solid black;
+    border-radius: 10px;
+    height: 35rem;
+    width: 25rem;
+}
 /*----------------------------------- Services ----------------------------------------*/
 #Services {
     top: 40rem;
