@@ -137,16 +137,16 @@ header nav a {
 
 #Portfolio {
     width: 100%;
-    height: 40rem;
+    height: 80em;
     display: grid;
     grid-template: repeat(20, 5%) / repeat(20, 5%);
     position: relative;
     top: 5.4375rem;
-    background-color: rgb(221, 43, 43);*/
+    /*background-color: rgb(221, 43, 43);*/
 }
 
 #Portfolio .title {
-    margin-top: 0rem;
+    margin-top: 4rem;
     margin-left: 8rem;
 }
 
@@ -154,6 +154,16 @@ header nav a {
     font-family: "Averia Serif Libre", serif;
     font-weight: 400;
     font-style: bold;
+    font-size: 5rem;
+}
+
+#Portfolio .pictures {
+    display:inline-flex;
+    position: relative;
+    background-color: whitesmoke;
+    grid-area: 5 / 2 / span 8 / span 4;
+    border: 3px solid black;
+    border-radius: 10px;
 }
 
 /*----------------------------------- Services ----------------------------------------*/
