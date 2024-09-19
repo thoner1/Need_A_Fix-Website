@@ -138,13 +138,13 @@ header nav a {
 #Portfolio {
     top: 5.4375rem;
     width: 100%;
-    height: 160em;
+    height: 100em;
     display: grid;
     grid-template: repeat(40, 2.5%) / repeat(40, 2.5%);
     position: relative;
-    align-items: flex-end;
-    justify-content: space-between;
-    background-color:green;*/
+    align-items: start;
+    justify-content: space-around;
+    background-color:green;
 
 }
 
@@ -171,18 +171,19 @@ header nav a {
     display:inline-flex;
     flex-wrap: wrap;
     position: relative;
-    grid-area: 2 / 1 / span 8 / span 40;
+    grid-area: 5 / 1 / span 8 / span 40;
     align-items: flex-start;
     border: 3px dotted black;
-    justify-content: space-around;
     background-color: red;
+    justify-content: space-around;
+    
 }
 
 #Portfolio .picturesII {
     display:inline-flex;
     flex-wrap: wrap;
     position: relative;
-    grid-area: 9 / 1 / span 8 / span 40;
+    grid-area: 16 / 1 / span 8 / span 40;
     align-items: flex-start;
     justify-content: space-around;
     background-color: purple;
@@ -192,7 +193,7 @@ header nav a {
     display:inline-flex;
     flex-wrap: wrap;
     position: relative;
-    grid-area: 17 / 1 / span 8 / span 40;
+    grid-area: 27 / 1 / span 8 / span 40;
     align-items: flex-start;
     justify-content: space-around;
     background-color: cyan;
