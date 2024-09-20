@@ -144,17 +144,18 @@ header nav a {
     position: relative;
     align-items: start;
     justify-content: space-around;
-    background-color:green;
+    background-color: lightgrey;
 
 }
 
 #Portfolio .title {
+    top: 2.5rem;
     height: 5.4375rem;
     width: 100%;
     display: grid;
     grid-area:  1 / 3 / span 2 / span 38;
     position: relative;
-    background-color: orange;
+    /*background-color: orange;*/
     align-content: center;
     justify-content: flex-start;
 }
@@ -163,7 +164,7 @@ header nav a {
     font-family: "Averia Serif Libre", serif;
     font-weight: 400;
     font-style: bold;
-    font-size: 5rem;
+    font-size: 3vw;
     margin: 0 auto;
 }
 
@@ -173,8 +174,8 @@ header nav a {
     position: relative;
     grid-area: 5 / 1 / span 8 / span 40;
     align-items: flex-start;
-    border: 3px dotted black;
-    background-color: red;
+    /*border: 3px dotted black;
+    background-color: red;*/
     justify-content: space-around;
     
 }
@@ -186,7 +187,7 @@ header nav a {
     grid-area: 16 / 1 / span 8 / span 40;
     align-items: flex-start;
     justify-content: space-around;
-    background-color: purple;
+    /*background-color: purple;*/
 }
 
 #Portfolio .picturesIII {
@@ -196,15 +197,44 @@ header nav a {
     grid-area: 27 / 1 / span 8 / span 40;
     align-items: flex-start;
     justify-content: space-around;
-    background-color: cyan;
-    border: 2px dotted black;
+    /*background-color: cyan;
+    border: 2px dotted black;*/
 }
 
 #Portfolio .landscape-container {
+    display: grid;
+    grid-template: repeat(10,10%) / repeat(10, 10%);
     border: 3px solid black;
     border-radius: 10px;
     height: 25rem;
     width: 35rem;
+}
+
+#Portfolio .picture {
+    grid-area: 2 / 1 / span 7 / span 11;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: red;*/
+}
+
+#Portfolio .caption {
+    grid-area: 8 / 1 / span 3 / span 11;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: blue;*/
+}
+
+#Portfolio .picture img {
+    height: 16vw;
+    width: 27vw;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: red;*/
 }
 /*----------------------------------- Services ----------------------------------------*/
 #Services {
