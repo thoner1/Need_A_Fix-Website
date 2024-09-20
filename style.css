@@ -249,32 +249,54 @@ header nav a {
 }
 /*----------------------------------- Services ----------------------------------------*/
 #Services {
+    top: 5.4375rem;
     width: 100%;
     height: 60vw;
     display: grid;
     grid-template: repeat(20, 5%) / repeat(20, 5%);
-    background-color: forestgreen;
+    background-color: lightgrey;
     position: relative;
+    /*border: 3px solid rgba(139, 87, 17, 0.993);
+    border-radius: 1.5rem;*/
     z-index:0;
 }
 
 #Services .container {
     grid-area: 1 / 1 / span 20 / span 21;
-    border-radius: 1.5rem;
+    /*border-radius: 1.5rem;*/
     background-image: url(Images/Services/background-pic.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    justify-content: center;
+    /*align-items: center;
+    justify-content: center;*/
     display: grid;
     grid-template: repeat(20, 5%) / repeat(20, 5%);
 }
 
-#Services .text {
-    grid-area: 5 / 9 / span 12 /span 8;
-    display: grid;
+#Services .title {
+    background-color: blue;
+    grid-area: 1 / 1 / span 1 /span 8;
+    display: inline-flex;
+    align-items: center;
     justify-content: flex-start; 
+    position: relative;
 }
+
+#Services .text {
+    background-color: red;
+    grid-area: 5 / 9 / span 5 /span 8;
+    display: inline-flex;
+    align-items: center;
+    justify-content: start;
+    position: relative;
+}
+
+#Services .text img {
+    height: 40px;
+    width: 40px;
+}
+
 
 #Services .text h2 {
     margin: 0 auto;
