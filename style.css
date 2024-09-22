@@ -71,7 +71,8 @@ header nav {
 header nav a {
     text-decoration: none;
     padding-left: 1.4rem;
-    font-family: "Chakra Petch", sans-serif;
+    /*font-family: "Chakra Petch", sans-serif;*/
+    font-family: "Stardos Stencil";
     font-weight: 400;
     font-style: normal;
     font-size: 1rem;
@@ -320,9 +321,9 @@ header nav a {
     background-color: gold;
     border: 4px dashed black;
     border-radius: 1rem;
-    grid-area: 2 / 1 / span 3 /span 9;
+    grid-area: 3 / 1 / span 2 /span 9;
     display: inline-flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: flex-start; 
 }
 
@@ -334,22 +335,110 @@ header nav a {
     margin: 0;
 }
 
-#Services .text {
-    background-color: red;
-    grid-area: 5 / 9 / span 5 /span 8;
+#Services .rate {
+    grid-area: 3 / 11 / span 2 / span 9;
     display: inline-flex;
     align-items: center;
-    justify-content: start;
+    justify-content: center;
+}
+
+#Services .rate h2 {
+    font-family: "Permanent Marker";
+    color: black;
+    font-size: 3vw;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#Services .text {
+    grid-area: 6 / 9 / span 16 /span 12;
+    display: inline-flex;
+    align-items: space-between;
+    justify-content: flex-start;
+    flex-wrap: wrap;
     position: relative;
 }
 
+#Services .text1 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 0.5vw;
+    border-style: dashed;
+    background-color:green;
+    height: 6vw;
+    width: 100%;
+}
+
+#Services .text2 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 0.5vw;
+    border-style: dashed;
+    background-color:purple;
+    height: 6vw;
+    width: 100%;
+}
+
+#Services .text3 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 0.5vw;
+    border-style: dashed;
+    background-color:blue;
+    height: 6vw;
+    width: 100%;
+}
+
+#Services .text4 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 0.5vw;
+    border-style: dashed;
+    background-color:red;
+    height: 6vw;
+    width: 100%;
+}
+
+#Services .text5 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 0.5vw;
+    border-style: dashed;
+    border-color: white;
+    background-color:black;
+    height: 6vw;
+    width: 100%;
+}
+
+#Services .text6 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 0.5vw;
+    border-style: dashed;
+    background-color:orangered;
+    height: 6vw;
+    width: 100%;
+}
+
+#Services .text h3 {
+    font-family: "Permanent Marker";
+    color: white;
+    font-size: 2vw;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 1.2vw;
+}
+
 #Services .text img {
-    height: 40px;
-    width: 40px;
+    height: 5vw;
+    width: 9vw;
+    padding-right: 1.5vw;
 }
 
 
-#Services .text h2 {
-    margin: 0 auto;
-
-}
