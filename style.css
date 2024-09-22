@@ -280,8 +280,10 @@ header nav a {
 }
 
 #Portfolio .picture img {
-    height: 15.5vw;
+    height: 15.0vw;
     width: 28vw;
+    border: 2px solid gray;
+    border-style: groove;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     display: inline-flex;
@@ -438,7 +440,16 @@ header nav a {
 #Services .text img {
     height: 5vw;
     width: 9vw;
-    padding-right: 1.5vw;
+    margin-right: 1.2vw;
+    border-radius: 5px;
 }
 
-
+/*------------------------ Locations & Hours ----------------------*/
+#Locations {
+    top: 5.4375rem;
+    display: grid;
+    grid-template: repeat(40,2.5%) / repeat(40, 2.5%);
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
