@@ -24,7 +24,7 @@ header {
     border-bottom: 2px solid black;
     position: fixed;
     padding: 0 1%;
-    z-index: 1;
+    z-index: 2;
 }
 
 #logo {
@@ -496,6 +496,7 @@ header nav a {
     z-index: 0;
     background-color: whitesmoke;
     opacity: 0.5;
+    border-radius: 0.5rem;
 }
 
 #Locations .locations2 {
@@ -504,6 +505,7 @@ header nav a {
     justify-content: space-between;
     border-style: groove;
     position: relative;
+    border-radius: 0.5rem;
 }
 
 #Locations .cities {
@@ -540,12 +542,13 @@ header nav a {
 
 #Locations .hours {
     grid-area: 18 / 2 / span 15 / span 15;
-    height: 13vw;
+    height: 12.85vw;
     display: grid;
     position: relative;
     z-index: 0;
     background-color: whitesmoke;
     opacity: 0.5;
+    border-radius: 0.5rem;
 }
 
 #Locations .hours2 {
@@ -558,6 +561,7 @@ header nav a {
     justify-content: space-between;
     padding: 0 1rem;
     border-style: groove;
+    border-radius: 0.5rem;
 }
 
 #Locations h2 {
@@ -609,4 +613,58 @@ header nav a {
 #Locations iframe {
     grid-area: 15 / 22 / span 10 / span 15;
     border-style: groove;
+    border-radius: 0.5rem;
+}
+
+/*---------------------------- Contact ----------------------------*/
+
+#Contact {
+    top: 5.4375rem;
+    height: 50vw;
+    width: 100%;
+    display: grid;
+    position: relative;
+    grid-template: repeat(40,2.5%) /repeat(40,2.5%);
+    background-color: tan;
+    border-top-style: groove;
+}
+
+#Contact .title {
+    grid-area: 5 / 2 / span 6 / span 10;
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 0.5rem solid black;
+}
+
+#Contact .title h1 {
+    font-family: "Yellowtail";
+    font-weight: 400;
+    font-size: 6vw;
+    font-style: normal;
+    padding-left: 1.5vw;
+}
+
+#Contact .email {
+    grid-area: 15 / 10 / span 6 / span 20;
+    display: inline-flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+    border: 3px dashed black;
+}
+
+#Contact .phone {
+    grid-area: 23 / 10 / span 6 / span 20;
+    border: 3px dashed black;
+    display: inline-flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+#Contact h2 {
+    font-family: "Averia Serif Libre";
+    font-size: 2.5vw;
+    padding: 0 1vw;
 }
