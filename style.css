@@ -75,7 +75,7 @@ header {
 }
 
 header nav {
-    grid-area: 1 / 14 / 2 / span 7;
+    grid-area: 1 / 13 / 2 / span 8;
     text-align: right;
     align-items: center;
     justify-content: center;
@@ -156,7 +156,7 @@ header nav a {
 }
 
 #Welcome .text3 {
-    right: 3.3rem;
+    right: 3.2rem;
     grid-area: 8 / 1 / span 20 /span 21;
     display: grid;
     justify-content: center;
@@ -219,6 +219,65 @@ header nav a {
     width: 15vw;
     border-radius: 0.5vw;
     border: 2px solid white
+}
+
+#About .text {
+    height: 10vw;
+    grid-area: 6 / 12 / span 10 / span 29;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2vw;
+    /*border: 2px solid black;*/
+    line-height: 3vw;
+}
+
+#About .text2 {
+    height: 20vw;
+    grid-area: 10 / 12 / span 10 / span 29;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2vw;
+    line-height: 3vw;
+}
+
+#About .text3 {
+    height: 20vw;
+    grid-area: 20 / 12 / span 30 / span 29;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2vw;
+    line-height: 3vw;
+}
+
+#About .text4 {
+    grid-area: 33 / 12 / span 2 / span 5;
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 2vw;
+    line-height: 3vw;
+}
+
+
+#About .text p::first-letter {
+    font-family: "Averia Serif Libre";
+    font-size: 3.5vw;
+    font-style: normal;
+    font-weight: 400;
+    color: whitesmoke;
+}
+
+#About p {
+    font-family: "Averia Serif Libre";
+    font-size: 2vw;
+    font-style: normal;
+    font-weight: 400;
+    color: whitesmoke;
+    word-spacing: 1vw;
+    text-align: left;
 }
 /*----------------------------------- Portfolio ---------------------------------------*/
 
