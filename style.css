@@ -972,28 +972,31 @@ header nav a {
     body #Locations iframe {
         width: 90vw;
         height: 80vw;
-        grid-area: 4 / 3 / span 20 / span 42;
+        grid-area: 5 / 3 / span 20 / span 42;
         border-style: groove;
         border-radius: 0.5rem;
     }
 
     body #Locations .locations {
         grid-area: 17 / 3 / span 15 / span 37;
-        height: 20vw;
+        height:20vw;
     }
 
     body #Locations .locations2 {
         grid-area: 17 / 3 / span 15 / span 37;
         height: 20vw;
+        width: 94vw;
     }
 
     body #Locations .hours {
         grid-area: 22 / 3 / span 15 / span 37;
         height: 20vw;
+        width: 94vw;
     }
 
     body #Locations .hours2 {
         height: 20vw;
+        width: 90vw;
         grid-area: 22 / 3 / span 15 / span 37;
         padding: 0 1vw;
     }
