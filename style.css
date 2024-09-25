@@ -34,12 +34,12 @@ header {
         overflow: hidden;
         position: fixed;
         z-index: 2;
-        height: 70vw;
+        height: 72vw;
         width: 50vw;
     }
       
     #spacer {
-        height: 12vw;
+        height: 11.5vw;
     }
 
     .topnav #myLinks {
@@ -247,6 +247,12 @@ header nav a {
         left: -2vw;
     }
 
+    #main #Welcome .text3 h2 {
+        grid-area: 2 / 1 / span 20 /span 20;
+        left: -2vw;
+        color: red;
+    }
+
     #main #Welcome .text4 {
         grid-area: 2 / 1 / span 20 /span 20;
         left: -2.2vw;
@@ -254,6 +260,7 @@ header nav a {
 
     #main #Welcome .text h2 {
         font-size: 9vw;
+        color:red;
     
     }
 
