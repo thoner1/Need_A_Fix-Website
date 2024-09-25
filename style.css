@@ -701,6 +701,103 @@ header nav a {
     /*background-color: red;*/
 }
 /*----------------------------------- Services ----------------------------------------*/
+
+@media only screen and (min-width:320px) and (max-width:480px) {
+    #main #Services {
+        height: 207vw;
+    }
+
+    #main .container .title {
+        grid-area: 2 / 1 / span 2 / span 21;
+        border-radius: 0;
+        border-top: 3px dashed black;
+        border-bottom: 3px dashed black;
+        border-left: none;
+        border-right: none;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #main .container .title h2 {
+        font-size: 10vw;
+    }
+
+    #main #Services .rate {
+        grid-area: 5 / 2 / span 2 / span 18;
+    }
+    
+    #main #Services .rate h2 {
+        font-family: "Permanent Marker";
+        color: black;
+        font-size: 5vw;
+        font-weight: 400;
+        font-style: normal;
+    }
+    
+
+    #main #Services .text {
+        top: 5.5vw;
+        grid-area: 6 / 1 / span 14 /span 21 ;
+        display: inline-flex;
+        align-items: space-between;
+        justify-content: center;
+        flex-wrap: wrap;
+        position: relative;
+    }
+
+    #main #Services .text1 {
+        border-left: none;
+        border-right: none;
+        height: 18vw;
+    }
+    
+    #main #Services .text2 {
+        border-left: none;
+        border-right: none;
+        height: 18vw;
+    }
+    
+    #main #Services .text3 {
+        border-left: none;
+        border-right: none;
+        height: 18vw;
+    }
+    
+    #main #Services .text4 {
+        border-left: none;
+        border-right: none;
+        height: 18vw;
+    }
+    
+    #main #Services .text5 {
+        border-left: none;
+        border-right: none;
+        height: 18vw;
+    }
+    
+    #main #Services .text6 {
+        border-left: none;
+        border-right: none;
+        height: 18vw;
+    }
+
+    #main #Services .text h3 {
+        font-size: 3.5vw;
+        padding-left: 1.2vw;
+    }
+
+    #main #Services .text img {
+        right: 2.5vw;
+        position: relative;
+        height: 15vw;
+        width: 25vw;
+        margin-right: 1.2vw;
+        border-radius: 5px;
+    }
+
+}
+
 #Services {
     top: 2.5rem;
     width: 100%;
