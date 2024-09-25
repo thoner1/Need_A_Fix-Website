@@ -951,6 +951,112 @@ header nav a {
 }
 
 /*------------------------ Locations & Hours ----------------------*/
+
+@media only screen and (min-width:320px) and (max-width:480px) {
+    body #Locations {
+        height: 207vw;
+    }
+
+    body #Locations .title {
+        grid-area: 2 / 1 / span 4 / span 41;
+        justify-content: center;
+        display: inline-flex;
+        align-items: center;
+    }
+
+    body #Locations .title h1 {
+        font-size: 9vw;
+        border-bottom: 3px solid black;
+    }
+
+    body #Locations iframe {
+        width: 90vw;
+        height: 80vw;
+        grid-area: 4 / 3 / span 20 / span 42;
+        border-style: groove;
+        border-radius: 0.5rem;
+    }
+
+    body #Locations .locations {
+        grid-area: 17 / 3 / span 15 / span 37;
+        height: 20vw;
+    }
+
+    body #Locations .locations2 {
+        grid-area: 17 / 3 / span 15 / span 37;
+        height: 20vw;
+    }
+
+    body #Locations .hours {
+        grid-area: 22 / 3 / span 15 / span 37;
+        height: 20vw;
+    }
+
+    body #Locations .hours2 {
+        height: 20vw;
+        grid-area: 22 / 3 / span 15 / span 37;
+        padding: 0 1vw;
+    }
+
+    body #Locations .locations2 .cities h2 {
+        font-size: 5.5vw;
+        margin: 0 0;
+    }
+
+    body #Locations .locations2 .state {
+        top: 6vw;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    body #Locations .locations2 .state h2 {
+        font-size: 5.5vw;
+        margin: 0 0;
+        padding-left: 1.7vw;
+    }
+
+    body #Locations .hours2  .week h2 {
+        font-size: 5.5vw;
+    }
+
+    body #Locations .hours2  .Saturday h2 {
+        font-size: 5.5vw;
+    }
+
+    body #Locations .hours2  .week {
+        grid-area: 2 / 1 / span 15 / span 40;
+        display: inline-flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    body #Locations .hours2  .Saturday {
+        grid-area: 20 / 1 / span 15 / span 40;
+        display: inline-flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    body #Locations .hours2 .Saturday .closed {
+        right: 10vw;
+        position: relative;
+    }
+
+    body #Locations .group {
+        top: 10vw;
+        left: 1.5vw;
+        position: relative;
+        grid-area: 1 / 2 / span 41 / span 37;
+        height: 207vw;
+        width: 100%;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+    
+
+}
+
 #Locations {
     top: 2.5rem;
     display: grid;
