@@ -1227,6 +1227,43 @@ header nav a {
 
 /*---------------------------- Contact ----------------------------*/
 
+@media only screen and (min-width:320px) and (max-width:480px) {
+    body #Contact {
+        height: 207vw;
+    }
+
+    body #Contact .title {
+        grid-area: 5 / 3 / span 6 / span 35;
+        align-items: center;
+        justify-content: center;
+        border: 3px solid black;
+    }
+
+    body #Contact .title h1 {
+        font-size: 25vw;
+        right: 5vw;
+        position: relative;
+    }
+
+    body #Contact h2 {
+        font-family: "Averia Serif Libre";
+        font-size: 6vw;
+        padding: 0 1vw;
+    }
+
+    body #Contact .email {
+        grid-area: 17 / 1 / span 6 / span 40;
+        border-left: none;
+        border-right: none;
+    }
+
+    body #Contact .phone {
+        grid-area: 25 / 1 / span 6 / span 40;
+        border-left: none;
+        border-right: none;
+    }
+}
+
 #Contact {
     top: 2.5rem;
     height: 50vw;
