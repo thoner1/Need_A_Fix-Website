@@ -523,13 +523,12 @@ header nav a {
 /*-- Mobile Settings --*/
 @media only screen and (min-width:320px) and (max-width:480px) {
     #main #Portfolio {
-        top: 10vw;
-        height: 700vw;
+        height: 660vw;
     }
 
     #main #Portfolio .title {
         grid-area:  1 / 1 / span 2 / span 39;
-        top: 0;
+        top: 8vw;
         right: 0;
         display: inline-flex;
         align-items: center;
@@ -550,6 +549,7 @@ header nav a {
         border-radius: 10px;
         height: 70vw;
         width: 90vw;
+        margin-top: 3vw;
     }
 
     #main #Portfolio .picture {
@@ -578,53 +578,27 @@ header nav a {
         display: inline-flex;
         align-items: center;
         justify-content: center;
-        /*background-color: blue;*/
     }
     
-    #Portfolio .caption h6 {
+    #main #Portfolio .caption h6 {
         font-family: "Averia Serif Libre", serif;
         font-weight: 400;
         font-style: regular;
-        font-size: 1.2vw;
+        font-size: 4vw;
         margin: 0 auto;
         text-align: center;
+        padding: 0 1vw;
     }
 
     #main #Portfolio .picturesI {
+        top: 13vw;
         display:inline-flex;
-        flex-wrap: wrap;
+        flex-wrap: wrap;   
         flex-direction: column;
         position: relative;
-        grid-area: 3 / 1 / span 20 / span 38;
+        grid-area: 2 / 1 / span 39 / span 41;
         align-items: center;
-        /*border: 3px dotted black;
-        background-color: red;*/
-        justify-content: space-between;
-        
-    }
-
-    #main #Portfolio .picturesII {
-        display:inline-flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        position: relative;
-        grid-area: 16 / 1 / span 10 / span 38;
-        align-items: center;
-        /*border: 3px dotted black;
-        background-color: red;*/
-        justify-content: space-between;
-    }
-
-    #main #Portfolio .picturesIII {
-        display:inline-flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        position: relative;
-        grid-area: 29 / 1 / span 10 / span 38;
-        align-items: center;
-        /*border: 3px dotted black;
-        background-color: red;*/
-        justify-content: space-between;
+        justify-content: center;
         
     }
     
@@ -633,7 +607,7 @@ header nav a {
 #Portfolio {
     top: 2.5rem;
     width: 100%;
-    height: 100vw;
+    height: 85vw;
     border-top-style: groove;
     display: grid;
     grid-template: repeat(40, 2.5%) / repeat(40, 2.5%);
@@ -663,44 +637,21 @@ header nav a {
     font-style: bold;
     font-size: 3vw;
     margin: 0 auto;
-    border-bottom: 5px black;
-    border-bottom-style: groove;
+    border-bottom: 3px black;
+    border-bottom-style: groove ;
 }
 
 #Portfolio .picturesI {
     display:inline-flex;
-    flex-wrap: wrap;
     position: relative;
-    grid-area: 6 / 1 / span 8 / span 40;
-    align-items: flex-start;
-    /*border: 3px dotted black;
-    background-color: red;*/
-    justify-content: space-around;
+    flex-wrap: wrap;
+    grid-area: 5 / 1 / span 34 / span 40;
+    align-items: center;
+    justify-content: space-between;
     
 }
 
-#Portfolio .picturesII {
-    display:inline-flex;
-    flex-wrap: wrap;
-    position: relative;
-    grid-area: 17 / 1 / span 8 / span 40;
-    align-items: flex-start;
-    justify-content: space-around;
-    /*background-color: purple;*/
-}
-
-#Portfolio .picturesIII {
-    display:inline-flex;
-    flex-wrap: wrap;
-    position: relative;
-    grid-area: 28 / 1 / span 8 / span 40;
-    align-items: flex-start;
-    justify-content: space-around;
-    /*background-color: cyan;
-    border: 2px dotted black;*/
-}
-
-#Portfolio .landscape-container {
+ #Portfolio .landscape-container {
     display: grid;
     grid-template: repeat(20, 5%) / repeat(20, 5%);
     border: 3px solid black;
@@ -708,7 +659,7 @@ header nav a {
     border-radius: 10px;
     height: 20vw;
     width: 29vw;
-    margin-top: 3vw;
+    margin: 2vw auto;
 }
 
 #Portfolio .picture {
@@ -725,13 +676,14 @@ header nav a {
     align-items: center;
     justify-content: center;
     /*background-color: blue;*/
+    padding: 0 2vw;
 }
 
 #Portfolio .caption h6 {
     font-family: "Averia Serif Libre", serif;
     font-weight: 400;
     font-style: regular;
-    font-size: 4vw;
+    font-size: 1.1vw;
     margin: 0 auto;
     text-align: center;
 }
