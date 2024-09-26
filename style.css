@@ -47,7 +47,7 @@ header {
     }
 
     .topnav #myLinks .color {
-        background-color: gray;
+        background-color: white;
         width: 45vw;
         border: 1px solid black;
         border-top: none;
@@ -61,7 +61,7 @@ header {
     }
 
     #myLinks a:hover {
-        background-color: blue;
+        background-color: black;
         color: white;
     }
       
